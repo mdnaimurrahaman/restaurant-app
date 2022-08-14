@@ -1,10 +1,11 @@
 
 import './App.css';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <div className=''>
-      <button class="btn btn-primary">Button</button>
+    <div >
+      <Layout/>
     </div>
   );
 }
