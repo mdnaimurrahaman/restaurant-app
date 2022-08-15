@@ -14,9 +14,10 @@ const Footer = () => {
           <img src={logo} alt="" srcset="" />
           <p className="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing <br></br>  elit. Asperiores cum aspernatur magni?</p>
           <hr />
+          <p className="mt-4">&copy; 2022 - All right reserved by Md Naimur Rahaman</p>
         </div>
       </div>
-      <div>
+      <div className="footer__menu">
         <span class="footer__title">Follow Us</span>
         <span className="flex list-none items-center gap-1">
             <li><FaFacebookSquare/></li>
@@ -35,21 +36,21 @@ const Footer = () => {
             <a class="link link-hover">Twitter</a>
         </span>
       </div>
-      <div>
+      <div className="footer__menu">
         <span class="footer__title">Services</span>
         <a class="link link-hover">Branding</a>
         <a class="link link-hover">Design</a>
         <a class="link link-hover">Marketing</a>
         <a class="link link-hover">Advertisement</a>
       </div>
-      <div>
+      <div className="footer__menu">
         <span class="footer__title">Company</span>
         <a class="link link-hover">About us</a>
         <a class="link link-hover">Contact</a>
         <a class="link link-hover">Jobs</a>
         <a class="link link-hover">Press kit</a>
       </div>
-      <div>
+      <div className="footer__menu">
         <span class="footer__title">Legal</span>
         <a class="link link-hover">Terms of use</a>
         <a class="link link-hover">Privacy policy</a>
