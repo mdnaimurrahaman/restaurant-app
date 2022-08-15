@@ -18,11 +18,12 @@
 }
 
 .menu a:hover{
-    color: #df2020;
+    color: #fa0203;
+    
 }
 
 .active__menu{
-    color: #df2020 !important;
+    color: #fa0203 !important;
 }
 
 .cart__icon i,
@@ -41,7 +42,7 @@
     position: absolute;
     top: -12px;
     right: -10px;
-    background: #df2020;
+    background: #fa0203;
     color: #fff;
     width: 15px;
     height: 15px;
@@ -52,9 +53,47 @@
     align-items: center;
     justify-content: center;
 }
+
+.online__order{
+    background-color: #fa0203;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 15px;
+    border-radius:25px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    
+}
+.online__location{
+    background-color:#21224511;
+    color: #212245;
+    font-size: 13px;
+    padding: 5px 15px;
+    border-radius:25px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+    
+}
+
+.online__location i{
+    font-size: 20px !important;
+    color: #fa0203;
+}
+
+
 .mobile__menu{
     font-weight: 600;
     display: none;
+}
+
+.header__shrink{
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 15px -5px #fde4e4;
 }
 
 @media only screen and (max-width: 992px){
@@ -104,5 +143,13 @@
 
     .show__menu{
         display: block;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .header{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
     }
 }

@@ -4,6 +4,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 import { AiOutlineUser } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
+import { HiLocationMarker } from 'react-icons/hi';
 import '../../styles/Header.css'
 const nav__links = [
     {
@@ -30,17 +31,17 @@ const Header = () => {
     const toggleMenu = ()=> menuRef.current.classList.toggle('show__menu')
 
     return (
-        <div className='container mx-auto'>
+        <div className=''>
             <div className='nav__wrapper flex items-center justify-between mt-6'>
                 <div className='logo'>
                     <img src={logo} alt="" srcset="" />
                 </div>
                 {/* ---------- menu --------------- */}
-                <div className='navigation' ref={menuRef}>
+                <div className='navigation' ref={menuRef}  onClick={toggleMenu}>
                     <div className='menu flex-row items-center gap-5'>
                         {
                             nav__links.map((item,index)=>(
-                                <NavLink onClick={toggleMenu} to={item.path} key={index}
+                                <NavLink to={item.path} key={index}
                                 className={navClass => navClass.isActive ? 'active__menu' : ''}
                                 >{item.display}</NavLink>
                             ))
@@ -49,6 +50,8 @@ const Header = () => {
                     </div>
                     {/* ------------- nav right icon -------- */}
                     <div className='nav__right flex items-center gap-4'>
+                        <span className='online__order'> <small>ONLINE ORDER</small></span>
+                        <span className='online__location'> <i><HiLocationMarker/></i> <small>Location</small></span>
                         <span className='cart__icon flex items-center'><i><HiOutlineShoppingCart/></i>
                         <span className='cart__badge'>2</span>
                         </span>
