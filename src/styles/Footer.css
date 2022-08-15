@@ -1,0 +1,27 @@
+.footer hr{
+    width: 100%;
+    background-color:#fa0203;
+    border: 0.3px solid #fa0203;
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: #000000;
+}
+
+.footer__title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.footer a, p{
+    color: rgb(165, 164, 164);
+    font-size: 13px;
+}
+
+.footer li{
+    color: #fff;
+    cursor: pointer;
+}
