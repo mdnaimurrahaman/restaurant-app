@@ -1,10 +1,12 @@
 import React from 'react';
+import Helmet from '../components/Helmet/Helmet';
+import TopBanner from './TopBanner';
 
 const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+        <Helmet title="Home">
+            <TopBanner/>
+        </Helmet>
     );
 };
 

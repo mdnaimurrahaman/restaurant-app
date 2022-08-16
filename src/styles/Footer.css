@@ -29,7 +29,7 @@
 .footer__menu{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 70%;
 }
 
 
@@ -40,6 +40,6 @@
         align-items: center;
     }
     .footer__menu{
-        margin-left: 45px;
+        margin-left: 48%;
     }
   }

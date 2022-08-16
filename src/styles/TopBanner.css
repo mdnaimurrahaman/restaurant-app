@@ -1,0 +1,12 @@
+.box{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-image: url(https://i.ibb.co/F0TLTGy/food-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    padding: 2rem 9%;
+    margin-top: -82px;
+}

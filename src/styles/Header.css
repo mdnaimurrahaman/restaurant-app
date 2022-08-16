@@ -1,8 +1,13 @@
 .header{
     width: 100%;
     height: 80px;
-    line-height: 80px;
+    /* line-height: 80px; */
+    position: fixed;
+    top: 0;
+    /* z-index: 1000; */
+    /* padding: 3rem 9%; */
 }
+
 
 .logo img{
     width: 75px;
@@ -13,7 +18,7 @@
 .menu a {
     font-weight: 600;
     font-size: 1rem;
-    color: #212245;
+    color: #ffffff;
     transition: 0.3s;
 }
 
@@ -30,7 +35,7 @@
 .user i,
 .mobile__menu i{
     font-size: 1.3rem;
-    color: #212245;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -60,17 +65,15 @@
     font-size: 13px;
     padding: 5px 15px;
     border-radius:25px;
-    letter-spacing: 0.5px;
     cursor: pointer;
     
 }
 .online__location{
-    background-color:#21224511;
-    color: #212245;
+    background-color:#f8f8fa3a;
+    color: #ffffff;
     font-size: 13px;
     padding: 5px 15px;
     border-radius:25px;
-    letter-spacing: 0.5px;
     display: flex;
     align-items: center;
     gap: 3px;
@@ -151,5 +154,9 @@
         width: 100%;
         height: 50px;
         line-height: 50px;
+    }
+    .logo img{
+        width: 56px;
+        
     }
 }
