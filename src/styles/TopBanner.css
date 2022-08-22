@@ -1,5 +1,13 @@
+.swiper-pagination-bullet{
+    color: red !important;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 8px;
+}
+.swiper-pagination{
+    margin-bottom: 25px;
+}
 .box{
-    min-height: 90vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     background-image: url(https://i.ibb.co/F0TLTGy/food-cover.jpg);
@@ -8,8 +16,9 @@
     background-position: center;
     justify-content: flex-start;
     padding: 2rem 9%;
-    margin-top: -82px;
+    /* margin-top: -82px; */
 }
+
 .banner-title{
     display: flex;
     flex-direction: column;
@@ -51,6 +60,10 @@
     color: #fff !important; 
 }
 
+.price li{
+    list-style: disc;
+}
+
 @media only screen and (max-width:768px){
 
     .content{
@@ -79,6 +92,7 @@
 
     .price li{
         font-size: 12px;
+        list-style: none;
     }
     .plus{
         position: relative;

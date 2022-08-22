@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 const Layout = () => {
     return (
         <div className='container mx-auto'>
-            <Header/>
+            <Header className=""/>
             <div>
                 <Routers/>
             </div>

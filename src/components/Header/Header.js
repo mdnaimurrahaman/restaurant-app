@@ -31,8 +31,8 @@ const Header = () => {
     const toggleMenu = ()=> menuRef.current.classList.toggle('show__menu')
 
     return (
-        <div className='max-w-7xl mx-auto sticky top-0 px-5'>
-            <div className='nav__wrapper flex items-center justify-between mt-6'>
+        <div className= 'header container mx-auto sticky top-0'>
+            <div className='nav__wrapper flex items-center justify-between mt-6 '>
                 <div className='logo'>
                     <img src={logo} alt="" srcset="" />
                 </div>
