@@ -43,7 +43,7 @@ const TopBanner = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='slide'>
-                        <div className='box'>
+                        <div className='box__2'>
                             <div className="content">
                                 <div className='banner-title '>
                                     <span>DOUBLE</span> 
@@ -66,7 +66,7 @@ const TopBanner = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='slide'>
-                        <div className='box'>
+                        <div className='box__3'>
                             <div className="content">
                                 <div className='banner-title '>
                                     <span>DOUBLE</span> 
