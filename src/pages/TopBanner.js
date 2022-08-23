@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 // Import Swiper styles
 import 'swiper/css/autoplay'
 import "swiper/css";
@@ -45,22 +46,18 @@ const TopBanner = () => {
                     <SwiperSlide className='slide'>
                         <div className='box__2'>
                             <div className="content">
-                                <div className='banner-title '>
-                                    <span>DOUBLE</span> 
-                                    <span>MUSHROOM</span>
-                                    <span>BURGER</span>
+                                <div className='second-title'>
+                                    <span className='text-center'>ORDER McDelivery NOW</span> 
+                                    <p className='text-center mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Inventore aliquid asperiores ducimus, omnis corrupti ad.</p>
                                 </div>
-                                <div className='price'>
-                                    <li>Cheese</li>
-                                    <li>Mushroom</li>
-                                    <div></div>
-                                    <span className='flex items-center'>
-                                        <span className='flex flex-col relative'>
-                                            <span><small>only</small></span>
-                                            <span className='price__rs'>Rs. 199</span>
+                                <div className='flex justify-center'>
+                                    <div className='banner-button flex flex-col text-center py-2 cursor-pointer mt-10'>
+                                        <p>McDelivery</p>
+                                        <span className='flex items-center justify-center'>
+                                            <span>Order Now</span>
+                                            <span className='ml-2'><BsFillArrowRightCircleFill/></span>
                                         </span>
-                                        <span className='plus'><IoMdAddCircle/></span>
-                                    </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
