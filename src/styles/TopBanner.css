@@ -140,6 +140,10 @@
     .content{
         margin-top: 60px;
     }
+    .box, .box__2, .box__3{
+        justify-content: center;
+        text-align: center;
+    }
     .banner-title > span{
         font-size: 40px;
         font-weight: 900;
@@ -163,7 +167,7 @@
         color: rgb(177, 177, 177);
         align-items: center;
         margin-top: 15px;
-        width: 280px;
+        width: 100%;
     }
     .price__rs{
         font-size: 15px;
