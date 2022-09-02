@@ -76,7 +76,7 @@ const TopBanner = () => {
                                     <span className='flex items-center'>
                                         <span className='flex flex-col relative'>
                                             <span><small>only</small></span>
-                                            <span className='price__rs'>Rs. 199</span>
+                                            <span className='price__rs'>Rs. 299</span>
                                         </span>
                                         <span className='plus'><IoMdAddCircle/></span>
                                     </span>

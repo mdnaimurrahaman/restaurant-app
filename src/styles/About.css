@@ -1,0 +1,88 @@
+.about__container{
+    /* min-height: 90vh; */
+    display: flex;
+    align-items: center;
+    background-image: url(https://i.ibb.co/XbZY34h/About-me-page-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    justify-content: flex-start;
+    /* padding: 2rem 9%; */
+    /* margin-top: -82px; */
+}
+
+.first__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.first__content img{
+    width: 500px;
+    height: 100%;
+}
+
+.first__content div h1{
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.first__content div p{
+    margin-bottom: 20px;
+}
+
+.about__wrapper{
+    padding: 2rem 9%;
+}
+
+.about__content{
+    display: flex;
+    align-items: center;
+    margin: 4rem 0rem;
+}
+
+.food__img{
+    width:60%;
+    z-index: 2;
+}
+.food__img img{
+    width:100%;
+    margin-top: -60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    
+}
+
+.about__bg{
+    background-image: url(https://i.ibb.co/tL0sSCx/About-Text-bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 3rem 9%;
+    margin-left: -50px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+}
+
+.about__bg h1{
+    font-size: 50px;
+    color: #fff;
+   margin-bottom: 20px;
+}
+
+.about__bg p{
+    margin-bottom: 20px;
+}
+
+.read__btn{
+    display: flex;
+    color: #bd942b;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.read__btn:hover{
+    color: #f7bb1f;
+}
+
