@@ -1,0 +1,50 @@
+.choose__title img{
+    width: 40%;
+    margin: auto;
+}
+.choose__title{
+    margin-bottom: 2rem;
+}
+.choose__title h1{
+    text-align: center;
+    margin: auto;
+    margin-top: -80px;
+}
+.choose__container{
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    background-image: url(https://i.ibb.co/DkT9Bf2/Why-choos-us-Bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    justify-content: flex-start;
+    /* padding: 2rem 9%; */
+    /* margin-top: -82px; */
+}
+.choose__wrapper{
+    padding: 2rem 9%;
+}
+
+.choose__content{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.choose__img img{
+    width: 50%;
+    margin: auto;
+}
+
+.choose__img, .choose__info{
+    width: 50%;
+}
+
+.choose__info h1{
+    font-size: 1.51rem;
+    margin-bottom: 8px;
+}
