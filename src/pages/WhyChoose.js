@@ -22,7 +22,7 @@ const WhyChoose = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusamus suscipit magnam natus! Autem sed maxime, natus sit eveniet rem.</p>
                     </div>
                 </div>
-                <div className='choose__content'>
+                <div className='choose__content choose__content2'>
                     <div className='choose__info'>
                         <h1>What's in you food</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusamus suscipit magnam natus! Autem sed maxime, natus sit eveniet rem.</p>
