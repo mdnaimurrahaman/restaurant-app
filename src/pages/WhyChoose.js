@@ -36,7 +36,7 @@ const WhyChoose = () => {
                         <img src={burger2} alt="" srcset="" />
                     </div>
                     <div className='choose__info'>
-                        <h1>Commitment to quality</h1>
+                        <h1>Nutrition Calculator</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil accusamus suscipit magnam natus! Autem sed maxime, natus sit eveniet rem.</p>
                     </div>
                 </div>
