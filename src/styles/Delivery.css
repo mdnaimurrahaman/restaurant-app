@@ -79,3 +79,22 @@
         background-image: url("../assets/images/BG/McDonald\'s_Golden_Arches-Tablet-bg.svg.png");
     }
 }
+
+@media only screen and (max-width:768px){
+    .delivery__wrapper{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .delivery__content{
+        width: 80%;
+        margin: auto;
+    }
+    .delivery__container{
+        background-size: auto;
+    }
+    .delivery__container h2{
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
