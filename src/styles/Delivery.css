@@ -1,0 +1,40 @@
+
+
+.delivery__container{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../assets/images/BG/McDonald\'s_Golden_Arches.svg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    justify-content: flex-start;
+    padding: 2rem 9%;
+    margin: 3rem 0rem;
+}
+.delivery__container h2{
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+}
+
+.delivery__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.delivery__wrapper img{
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.delivery__info span{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-bg);
+}
+.delivery__info p{
+    margin-top: 10px;
+}

@@ -5,11 +5,10 @@
     background-image: url(https://i.ibb.co/YQGFG5P/BLACK-BURGER-BG.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
+    background-position: top -50px center;
     background-attachment: fixed;
     justify-content: flex-start;
     padding: 2rem 9%;
-    margin-bottom: 4rem;
 }
 
 
