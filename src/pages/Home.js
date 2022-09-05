@@ -3,6 +3,7 @@ import Helmet from '../components/Helmet/Helmet';
 import About from './About';
 import BlackBanner from './BlackBanner';
 import Delivery from './Delivery';
+import Ingredient from './Ingredient';
 import TopBanner from './TopBanner';
 import WhyChoose from './WhyChoose';
 
@@ -14,6 +15,7 @@ const Home = () => {
             <WhyChoose/>
             <BlackBanner/>
             <Delivery/>
+            <Ingredient/>
         </Helmet>
     );
 };
