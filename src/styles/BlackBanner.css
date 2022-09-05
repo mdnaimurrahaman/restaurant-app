@@ -1,16 +1,17 @@
 .black__banner{
-    min-height: 60vh;
+    min-height: 65vh;
     display: flex;
     align-items: center;
-    background-image: url(https://i.ibb.co/0Y5ct1C/Black-Burger-Bg.jpg);
+    background-image: url(https://i.ibb.co/YQGFG5P/BLACK-BURGER-BG.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    background-attachment: fixed;
     justify-content: flex-start;
     padding: 2rem 9%;
-    /* padding: 2rem 9%; */
-    /* margin-top: -82px; */
+    margin-bottom: 4rem;
 }
+
 
 .banner__content{
     width: 50%;
@@ -33,4 +34,11 @@
 .info__menu span{
     font-weight: 500;
     color: rgb(219, 219, 219);
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .banner__content{
+        width: 80%;
+    } 
 }
