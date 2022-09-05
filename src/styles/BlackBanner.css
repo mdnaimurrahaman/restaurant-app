@@ -41,3 +41,12 @@
         width: 80%;
     } 
 }
+@media only screen and (max-width:768px){
+    .banner__content{
+        width: 100%;
+    } 
+    .second__info{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
