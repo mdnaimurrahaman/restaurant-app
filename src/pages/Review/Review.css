@@ -1,0 +1,31 @@
+.reviews__container{
+    padding: 2rem 9%;
+}
+.review__title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.review__title p{
+    color: var(--color-primary);
+}
+.review__title span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.reviews__wrapper{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.reviews__wrapper div{
+    width: 100%;
+}
+
+/* .swiper-button-prev, .swiper-button-next{
+    margin-top:  !important;
+} */
+
+/* .swiper-wrapper{
+    margin-top: 2rem !important;
+} */

@@ -1,10 +1,11 @@
 import React from 'react';
+import { SwiperSlide } from 'swiper/react';
 
 const Review = ({review}) => {
     return (
-        <div>
+        <SwiperSlide>
             <h1>{review.name}</h1>
-        </div>
+        </SwiperSlide>
     );
 };
 
