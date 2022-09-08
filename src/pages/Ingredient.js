@@ -5,8 +5,10 @@ const Ingredient = () => {
     return (
         <div className='ingredient__container'>
             <div className='ingredient__wrapper'>
+            <div className='card__2'></div>
                 <div className='title__card'>
                     <span>Baked with natural</span>
+                    <br/>
                     <span>ingredient</span>
                 </div>
                 <div className='ingredient__content'>
@@ -37,6 +39,7 @@ const Ingredient = () => {
                 </div>
             </div>
         </div>
+       
     );
 };
 
