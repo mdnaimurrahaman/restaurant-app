@@ -1,33 +1,35 @@
 .swiper-pagination-bullet{
     color: red !important;
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(255, 255, 255);
     padding: 8px;
 }
 .swiper-pagination{
     margin-bottom: 25px;
 }
-.box{
+
+.box__1, .box__2, .box__3{
     min-height: 90vh;
     display: flex;
     align-items: center;
-    background-image: url(https://i.ibb.co/F0TLTGy/food-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     justify-content: flex-start;
     padding: 2rem 9%;
+}
+
+.box__1{
+    background-image: url(https://i.ibb.co/F0TLTGy/food-cover.jpg);
     /* margin-top: -82px; */
 }
 .box__2{
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
     background-image: url(https://i.ibb.co/28KW34q/food-cover-03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    padding: 2rem 9%;
+    justify-content: center !important;
+    /* margin-top: -82px; */
+    
+}
+.box__3{
+    background-image: url(https://i.ibb.co/1r199hj/food-cover-use-02.jpg);
     /* margin-top: -82px; */
 }
 
@@ -37,18 +39,6 @@
     color: #fff !important;
 }
 
-.box__3{
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    background-image: url(https://i.ibb.co/1r199hj/food-cover-use-02.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: flex-start;
-    padding: 2rem 9%;
-    /* margin-top: -82px; */
-}
 
 .banner-title{
     display: flex;

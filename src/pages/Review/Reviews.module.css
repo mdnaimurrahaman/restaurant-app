@@ -22,10 +22,22 @@
     width: 100%;
 }
 
-/* .swiper-button-prev, .swiper-button-next{
-    margin-top:  !important;
-} */
+.swiper-button-prev{
+    margin-top: -5rem !important;
+} 
 
-/* .swiper-wrapper{
-    margin-top: 2rem !important;
-} */
+.swiper-button-next{
+    margin-top: 100px !important;
+}
+
+.swiper-pagination{
+    background-color: antiquewhite !important;
+}
+
+.swiper-pagination-bullet{
+    color: red !important;
+    background-color: rgb(218, 36, 36) !important;
+    padding: 8px;
+}
+
+

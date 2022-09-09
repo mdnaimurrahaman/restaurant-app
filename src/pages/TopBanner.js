@@ -21,7 +21,7 @@ const TopBanner = () => {
         }}
         modules={[Pagination, Autoplay]} autoplay={{delay:2200}} className='wrapper mySwiper'>
                     <SwiperSlide className='slide'>
-                        <div className='box'>
+                        <div className='box__1'>
                             <div className="content">
                                 <div className='banner-title '>
                                     <span>DOUBLE</span> 
