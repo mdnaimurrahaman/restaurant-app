@@ -78,3 +78,14 @@
     color: #fff;
     margin-top: -10px;
 }
+
+/* ----------small device---------- */
+@media only screen and (max-width:768px){
+    .content__details{
+        flex-direction: column;
+    }
+    .crispy__item, .healthy__item{
+        width: 100%;
+    }
+
+}
