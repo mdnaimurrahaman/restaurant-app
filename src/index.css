@@ -33,7 +33,7 @@ body {
   --color-primary: #E80007;
   --color-secondary: #FFBF0C;
   --color-white: #fff;
-  --color-light: rgba(252, 247, 221, 0.491);
+  --color-light: rgb(248, 233, 200);
 
 
   /* --transition: all 400ms ease;

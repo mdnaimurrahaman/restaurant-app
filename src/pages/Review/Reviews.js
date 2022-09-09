@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from "swiper";
 
 const Reviews = () => {
+
   const reviews = Data;
   console.log(reviews);
   return (
@@ -27,11 +28,25 @@ const Reviews = () => {
           <img src={img} alt="" srcset="" />
         </div> */}
         <Swiper
-        slidesPerView={2}
+        // slidesPerView={2}
+        breakpoints={{
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+            // when window width is >= 768px
+            1024: {
+                slidesPerView: 2,
+              },
+          }}
         spaceBetween={30}
           pagination={{
             dynamicBullets: true,
           }}
+        
           modules={[Pagination, Autoplay]} autoplay={{delay:2200}}
           className="reviews mySwiper"
         >
@@ -41,9 +56,9 @@ const Reviews = () => {
                 <p>{review.description}</p>
               </div>
               <div className={style.swiper__client__data}>
-                <figure>
+                <div className={style.client__img}>
                   <img src={review.cover} alt="client review" srcset="" />
-                </figure>
+                </div>
                 <div className={style.client__data__details}>
                   <h3>{review.name}</h3>
                   <p>{review.time}</p>

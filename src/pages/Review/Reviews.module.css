@@ -1,5 +1,6 @@
 .reviews__container{
     padding: 2rem 9%;
+    margin: 3rem 0rem;
 }
 .review__title{
     text-align: center;
@@ -23,23 +24,23 @@
 }
 
 .swiper__client__msg{
-    padding: 5rem 8rem;
+    padding: 3rem 5rem;
     background-color: #fff;
     border-radius: 1rem;
     text-align: left;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    box-shadow: rgba(254, 246, 220, 0.478) 0px 4px 6px -1px, rgba(0, 0, 0, 0.052) 0px 2px 4px -0.2px;
     position: relative;
 }
 
 .swiper__client__msg::before{
     content: "";
     position: absolute;
-    bottom: -10rem;
+    bottom: -6rem;
     left: 50%;
     transform: translateX(-50%);
-    border: 5rem solid #fff;
+    border: 3rem solid #fff;
     border-color: transparent;
-    border-top-color: var(--color-light);
+    border-top-color: rgba(254, 246, 220, 0.478);
 
 }
 
@@ -48,7 +49,7 @@
     position: absolute;
     top:0;
     left:2rem;
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--color-light);
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -58,17 +59,22 @@
     position: absolute;
     bottom:0;
     right:2rem;
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--color-light);
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
 }
 
-.swiper__client__data img{
-    max-width: 10rem;
-    height: 10rem;
+.client__img img{
+    width: 6rem;
+    aspect-ratio: 1/1;
     border-radius: 50%;
-    border: .5rem solid var( --color-light)
+    border: .3rem solid var( --color-light)
+}
+
+.client__img{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .swiper__client__data{
@@ -76,7 +82,34 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     justify-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    gap:1rem;
     
+}
+
+/* ----------small device---------- */
+@media only screen and (max-width:768px){
+    .swiper__client__msg{
+        padding: 2rem 3rem;
+    }
+    .swiper__client__msg p::before{
+        font-size: 2rem;
+    }
+    .swiper__client__msg p::after{
+        font-size: 2rem;
+        right:2rem;
+    }
+    .swiper__client__msg::before{
+        border: 2rem solid #fff;
+        bottom: -4rem;
+        border-top-color: rgba(254, 246, 220, 0.478);
+        z-index: -1;
+    }
+    .swiper__client__data{
+        margin-top: 2rem;
+    }
+    .client__img img{
+        width: 5rem;
+    }
 }
 
