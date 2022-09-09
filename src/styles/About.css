@@ -39,7 +39,7 @@
 .about__content{
     display: flex;
     align-items: center;
-    margin: 4rem 0rem;
+    margin-top: 6   rem;
 }
 
 .food__img{
