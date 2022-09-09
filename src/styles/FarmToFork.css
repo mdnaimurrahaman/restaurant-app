@@ -34,10 +34,10 @@
     border-radius: 10px;
 }
 .lettuce__item{
-    background-image: url('../assets/images/BG/Lettuce.jpg');
+    background-image:linear-gradient(to bottom, rgba(108, 248, 108, 0.494), rgba(30, 50, 2, 0.961)), url('../assets/images/BG/Lettuce.jpg');
 }
 .coffee__item{
-    background-image: url('../assets/images/BG/coffee-beans.jpg');
+    background-image: linear-gradient(to bottom, rgba(251, 205, 168, 0.176), rgba(53, 20, 3, 0.961)), url('../assets/images/BG/coffee-beans.jpg');
 }
 
 .crispy__item, .healthy__item{
@@ -52,10 +52,29 @@
 
 .crispy__item{
     width: 30%;
-    background-image: url('../assets/images/BG/fresh-organic.jpg');
+    background-image: linear-gradient(to bottom, rgba(248, 198, 132, 0.247), rgba(18, 6, 1, 0.966)), url('../assets/images/BG/fresh-organic.jpg');
 }
 
 .healthy__item{
     width: 70%;
-    background-image: url('../assets/images/BG/Eaag.jpg');
+    background-image: linear-gradient(to bottom, rgba(248, 175, 116, 0.176), rgba(33, 12, 2, 0.975)), url('../assets/images/BG/Eaag.jpg');
+}
+
+.farm__text{
+    position: relative;
+    bottom: -50%;
+    left: 30px;
+    
+}
+
+.farm__text span{
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+    
+}
+.farm__text p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: -10px;
 }

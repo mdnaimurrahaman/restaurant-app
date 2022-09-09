@@ -12,22 +12,34 @@ const FarmToFork = () => {
                 <div className='farm__content'>
                     <div className='content__details'>
                         <div className='lettuce__item'>
-                            <span>FRESH</span>
-                            <span>Lettuce</span>
+                            <div className='farm__text'>
+                                <span>FRESH</span>
+                                <br/>
+                                <p>Lettuce</p>
+                            </div>
                         </div>
                         <div className='coffee__item'>
-                            <span>REFRESHING</span>
-                            <span>Coffee</span>
+                            <div className='farm__text'>
+                                <span>REFRESHING</span>
+                                <br/>
+                                <p>Coffee</p>
+                            </div>
                         </div>
                     </div>
                     <div className='content__details'>
                         <div className='crispy__item'>
-                            <span>CRISPY</span>
-                            <span>French Fries</span>
+                            <div className='farm__text'>
+                                <span>CRISPY</span>
+                                <br/>
+                                <p>French Fries</p>
+                            </div>
                         </div>
                         <div className='healthy__item'>
-                            <span>HEALTHY</span>
-                            <span>Eggs</span>
+                            <div className='farm__text'>
+                                <span>HEALTHY</span>
+                                <br/>
+                                <p>Eggs</p>
+                            </div>
                         </div>
                     </div>
                 </div>
