@@ -32,3 +32,11 @@
     display: flex;
     gap: 10rem;
 }
+
+@media only screen and (max-width:768px){
+    .last__button{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
