@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from '../components/Helmet/Helmet';
 import About from './About';
 import BlackBanner from './BlackBanner';
+import BottomBanner from './BottomBanner';
 import Delivery from './Delivery';
 import FarmToFork from './FarmToFork';
 import Ingredient from './Ingredient';
@@ -20,6 +21,7 @@ const Home = () => {
             <Ingredient/>
             <Reviews/>
             <FarmToFork/>
+            <BottomBanner/>
         </Helmet>
     );
 };
