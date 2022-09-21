@@ -32,7 +32,7 @@ const Header = () => {
 
     return (
         <div className= 'header mx-auto sticky top-0'>
-            <div className='nav__wrapper flex items-center justify-between mt-6 '>
+            <div className='nav__wrapper flex items-center justify-between'>
                 <div className='logo'>
                     <img src={logo} alt="" srcset="" />
                 </div>
